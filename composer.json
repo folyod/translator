@@ -1,0 +1,37 @@
+{
+    "name": "folyod/translator",
+    "description": "Translation lib",
+    "type": "lib",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Folyod\\Translator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sorokin Ilya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2",
+        "folyod/helpers": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1@dev",
+        "phpstan/phpstan": "1.10.x-dev",
+        "squizlabs/php_codesniffer": "4.0.x-dev"
+    },
+    "repositories": {
+        "helpers": {
+            "type": "git",
+            "url": "https://github.com/folyod/helpers.git"
+        }
+    }
+}
