@@ -27,11 +27,5 @@
         "phpunit/phpunit": "^10.0",
         "phpstan/phpstan": "^1.10",
         "squizlabs/php_codesniffer": "^3.7"
-    },
-    "repositories": {
-        "helpers": {
-            "type": "git",
-            "url": "https://github.com/folyod/helpers.git"
-        }
     }
 }

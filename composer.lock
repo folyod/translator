@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0fc3aaf3630438636c7dd4c381f4b64",
+    "content-hash": "29ae1a080795c012aa06be75228ca356",
     "packages": [
         {
             "name": "folyod/helpers",
@@ -13,6 +13,12 @@
                 "type": "git",
                 "url": "https://github.com/folyod/helpers.git",
                 "reference": "d1eecfbb1ff7d493607122701002625299ab1b90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/folyod/helpers/zipball/d1eecfbb1ff7d493607122701002625299ab1b90",
+                "reference": "d1eecfbb1ff7d493607122701002625299ab1b90",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.2"
@@ -28,11 +34,7 @@
                     "Folyod\\Helpers\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Test\\": "test/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -42,6 +44,10 @@
                 }
             ],
             "description": "Helpers lib",
+            "support": {
+                "issues": "https://github.com/folyod/helpers/issues",
+                "source": "https://github.com/folyod/helpers/tree/0.1.1"
+            },
             "time": "2023-02-25T07:49:22+00:00"
         }
     ],
