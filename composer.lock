@@ -4,23 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29ae1a080795c012aa06be75228ca356",
+    "content-hash": "d0fc3aaf3630438636c7dd4c381f4b64",
     "packages": [
         {
             "name": "folyod/helpers",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/folyod/helpers.git",
-                "reference": "d1eecfbb1ff7d493607122701002625299ab1b90"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/folyod/helpers/zipball/d1eecfbb1ff7d493607122701002625299ab1b90",
-                "reference": "d1eecfbb1ff7d493607122701002625299ab1b90",
-                "shasum": ""
+                "reference": "3d4573ac9a490a52303b709713e983791c9097b5"
             },
             "require": {
+                "ext-mbstring": "*",
                 "php": ">=8.2"
             },
             "require-dev": {
@@ -34,7 +29,11 @@
                     "Folyod\\Helpers\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Test\\": "test/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -44,11 +43,7 @@
                 }
             ],
             "description": "Helpers lib",
-            "support": {
-                "issues": "https://github.com/folyod/helpers/issues",
-                "source": "https://github.com/folyod/helpers/tree/0.1.1"
-            },
-            "time": "2023-02-25T07:49:22+00:00"
+            "time": "2023-02-26T20:03:54+00:00"
         }
     ],
     "packages-dev": [
@@ -280,16 +275,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.2",
+            "version": "1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "a2ffec7db373d8da4973d1d62add872db5cd22dd"
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a2ffec7db373d8da4973d1d62add872db5cd22dd",
-                "reference": "a2ffec7db373d8da4973d1d62add872db5cd22dd",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5419375b5891add97dc74be71e6c1c34baaddf64",
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64",
                 "shasum": ""
             },
             "require": {
@@ -319,7 +314,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.10.2"
+                "source": "https://github.com/phpstan/phpstan/tree/1.10.3"
             },
             "funding": [
                 {
@@ -335,7 +330,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-23T14:36:46+00:00"
+            "time": "2023-02-25T14:47:13+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
