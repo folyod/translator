@@ -35,4 +35,9 @@ final class LanguageTranslatorsCollector
     {
         return isset($this->map[$language]);
     }
+
+    public function isEmpty(): bool
+    {
+        return empty($this->map);
+    }
 }
